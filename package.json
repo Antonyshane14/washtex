@@ -20,9 +20,13 @@
     "vite": "^5.0.7"
   },
   "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "node node_modules/vite/bin/vite.js build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "browserslist": {
